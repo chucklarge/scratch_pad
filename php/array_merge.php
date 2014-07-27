@@ -1,17 +1,17 @@
 <?php
 
-$a1 = array(
-    'a' => 'A',
-    'b' => 'B',
-    'c' => 'C'
-);
+$default = [
+    'can_edit' => false,
+    'can_admin' => false,
+    'can_view' => true,
+    'can_run' => true,
+];
 
-$a2 = array(
-    'd' => 'D',
-    'e' => 'E',
-    'f' => 'F'
-);
+$actual = [
+    'can_admin' => true,
+];
 
-$a3 = array_merge($a1, $a2);
+$actual = [];
 
-var_dump($a3);
+$a = array_merge($default, $actual);
+var_dump($a);
