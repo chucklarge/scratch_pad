@@ -8,7 +8,7 @@ import (
 
 func draw_all() {
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
-	fmt.Printf("Hello Bitches\n")
+	fmt.Printf("Derf Der\n")
 }
 
 func draw_ev(ev *termbox.Event) {
