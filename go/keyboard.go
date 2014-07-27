@@ -13,7 +13,7 @@ func draw_all() {
 
 func draw_ev(ev *termbox.Event) {
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
-	fmt.Printf("%v\n", ev)
+	fmt.Printf("%v", ev)
 }
 
 func main() {
